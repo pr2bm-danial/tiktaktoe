@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 10px auto; /* Added some margin for better centering */
+    user-select: none;
+}
+
+table td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #000;
+    cursor: pointer;
+    font-size: 20px; /* Adjust font size */
+    line-height: 1;  /* Set line height to 1 for better consistency */
+    font-family: 'Courier New', monospace;
+}
+
+#announce {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+table td.disabled {
+    pointer-events: none; /* Disable click events on disabled cells */
+}
+
+body{
+    background-color: rgb(255, 219, 128);
+}
